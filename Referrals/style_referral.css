@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;;
+    /* background-color: lightblue; */
+}
+.container{
+    margin: 2rem 0;
+    padding: 0rem 1rem;
+}
+.sub-container{
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.3em;
+    margin : auto;
+    display: flex;
+    flex-direction: column;
+}
+.sub-container li {
+    margin-bottom: 2em;;
+}
+.section-container{
+margin:auto;
+/* padding: auto;; */
+max-width: 900px;
+}

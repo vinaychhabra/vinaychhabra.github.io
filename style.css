@@ -7,10 +7,35 @@ body {
   margin: 0px;
   padding: 0px;
 }
+header{
+  margin: 1rem 0rem 0rem 1rem;
+}
+a{
+  transition: 0.3s;
+}
+.ref-link:link, a:visited {
+  background-color: #757eff;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 1rem;;
+}
+
+.ref-link:hover, a:active {
+  background-color: rgb(230, 228, 228);
+  color : black;
+  box-shadow:1px 2px 5px 1px #888888;
+}
 
 body {
   font-family: "Exo", sans-serif;
   /* background-color: rgba(0, 255, 221, 0.267); */
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .context {
